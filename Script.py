@@ -74,6 +74,14 @@ these are the extra features of Eva Maria
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
+    SONG_TXT ="""𝙃𝙚𝙡𝙥 𝙁𝙤𝙧 𝙎𝙤𝙣𝙜
+• 𝘜𝘴𝘢𝘨𝘦
+𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘼𝙣𝙮 𝙑𝙞𝙙𝙚𝙤 𝙁𝙧𝙤𝙢𝙚 𝙔𝙤𝙪 𝙏𝙪𝙗𝙚 𝙖𝙨 𝘼𝙪𝙙𝙞𝙤 𝙁𝙞𝙡𝙚
+𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+• 𝘛𝘺𝘱𝘦 /song or /sf (Song Link)
+• 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
+/song https://youtu.be/Your Link
+𝙏𝙝𝙞𝙨 𝙒𝙞𝙡𝙡 𝙃𝙚𝙡𝙥 𝙍𝙞𝙣𝙜𝙩𝙤𝙣𝙚 𝙁𝙖𝙣𝙨 😅"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
