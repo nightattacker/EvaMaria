@@ -420,6 +420,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Connection', callback_data='coct'),
             InlineKeyboardButton('Extra Mods', callback_data='extra')
             ],[
+            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
+            InlineKeyboardButton("𝖢𝗈𝗏𝗂𝖽𝖾", callback_data='corona')
+            ],[
+            InlineKeyboardButton("𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄", callback_data='abook'),
+            InlineKeyboardButton("𝖵𝗂𝖽𝖾𝗈", callback_data='video')
+            ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')
         ]]
@@ -442,6 +448,48 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
+        )
+    elif query.data == "abook":
+        buttons = [[
+            InlineKeyboardButton('🔙 𝖡𝖺𝖼𝗄', callback_data='hellp')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ABOOK_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+         )
+     elif query.data == "song":
+        buttons = [[
+            InlineKeyboardButton('🔙 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SONG_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+          ) 
+      elif query.data == "video":
+        buttons = [[
+            InlineKeyboardButton('🔙 𝖡𝖺𝖼𝗄', callback_data='song')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.VIDEO_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+     elif query.data == "corona":
+        buttons = [[
+            InlineKeyboardButton('🔙 𝖡𝖺𝖼𝗄', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.CORONA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html
         )
     elif query.data == "source":
         buttons = [[
