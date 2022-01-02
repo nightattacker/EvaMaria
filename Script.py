@@ -74,6 +74,13 @@ these are the extra features of Eva Maria
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
+    VIDEO_TXT ="""𝙃𝙚𝙡𝙥 𝙁𝙤𝙧 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘼𝙣𝙮 𝙑𝙞𝙙𝙚𝙤 𝙁𝙧𝙤𝙢 𝙔𝙏.
+• 𝘜𝘴𝘢𝘨𝘦
+𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
+𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (𝘝𝘪𝘥𝘦𝘰 Link)
+• 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
+/𝘮𝘱4 https://youtu.be/Your Link
     SONG_TXT ="""𝙃𝙚𝙡𝙥 𝙁𝙤𝙧 𝙎𝙤𝙣𝙜
 • 𝘜𝘴𝘢𝘨𝘦
 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘼𝙣𝙮 𝙑𝙞𝙙𝙚𝙤 𝙁𝙧𝙤𝙢𝙚 𝙔𝙤𝙪 𝙏𝙪𝙗𝙚 𝙖𝙨 𝘼𝙪𝙙𝙞𝙤 𝙁𝙞𝙡𝙚
@@ -82,6 +89,16 @@ these are the extra features of Eva Maria
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
 /song https://youtu.be/Your Link
 𝙏𝙝𝙞𝙨 𝙒𝙞𝙡𝙡 𝙃𝙚𝙡𝙥 𝙍𝙞𝙣𝙜𝙩𝙤𝙣𝙚 𝙁𝙖𝙣𝙨 😅"""
+    CORONA_TXT = """𝙃𝙚𝙡𝙥 𝙁𝙤𝙧 𝘾𝙤𝙫𝙞𝙙 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣
+• 𝙐𝙨𝙖𝙜𝙚
+To Know daily Covid Information
+  ⭕ 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+◉ /covid [country name] - Use This Method To Get Covid Informations
+Example:
+/covid India"""
+    ABOOK_TXT = """𝙃𝙚𝙡𝙥 𝙁𝙤𝙧 𝙏𝙤 𝘾𝙤𝙣𝙫𝙚𝙧𝙩 𝙋𝘿𝙁 𝙏𝙤 𝘼𝙪𝙙𝙞𝙤
+⭕ 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+Reply /audiobook To Any PDF To Convert To Audio"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
