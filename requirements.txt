@@ -7,3 +7,13 @@ umongo==3.0.0
 requests
 bs4
 imdbpy
+gTTS
+PyPDF2
+asyncio==3.4.3
+aiohttp==3.7.4
+aiofiles
+wget
+youtube-search-python==1.4.6
+youtube_search
+yt-dlp
+youtube-dl
