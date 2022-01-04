@@ -470,7 +470,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
           ) 
-      elif query.data == "video":
+     elif query.data == "video":
         buttons = [[
             InlineKeyboardButton('🔙 𝖡𝖺𝖼𝗄', callback_data='song')
         ]]
